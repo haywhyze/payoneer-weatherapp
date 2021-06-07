@@ -1,7 +1,7 @@
 {
   "name": "payoneer-weatherapp",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://haywhyze.github.io/payoneer-weatherapp",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
@@ -22,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b main -d build"
   },
   "eslintConfig": {
     "extends": [
